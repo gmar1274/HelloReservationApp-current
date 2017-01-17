@@ -174,7 +174,7 @@ public class ShopLoginActivity extends Activity  {
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             password = Encryption.encryptPassword(password);
-            final ProgressDialog pd = ProgressDialog.show(this,"Log in.","Authenticating",true,false);
+            final ProgressDialog pd=ProgressDialog.show(this, "Authenticating", "Please wait...", true, false);
             pd.show();
 
             //showProgress(true);
